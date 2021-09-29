@@ -1,0 +1,352 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color-text: #696969;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1e90FF;
+    
+}
+
+/* Inciando a parte do meu cabeçário, o header, aqui estarão os estilos aplicados nele*/
+header {
+    height: 90px;
+    display: flex;
+    justify-content: center;    
+}
+.container {
+    display: flex;
+    width: 990px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 90px;
+    width: 120px;
+    object-fit: cover;
+    border-right: 1px solid #696969;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+nav ul,
+nav li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    margin-top: 22.5px;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    padding:15px;
+    text-decoration: none;
+    color: #696969;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    background-color: #1e90FF;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+
+}
+
+.menu_login_carrinho {
+    margin-left: 131px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.border_menu_login {
+    border: 1px solid #696969;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.border_menu_carrinho {
+    border: 1px solid #696969;
+    border-radius: 30px;
+}
+
+.menu_login_carrinho a:hover {
+    background-color: #1e90FF;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    
+}
+
+/* Parte do container que fica uma linha entre o header e a primeira section*/
+.container3 {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #323232;
+    color: white;
+    align-items: center;
+}
+
+#geral1 {
+    display: flex;
+    justify-content: center;
+    
+}
+.espaco_container {
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bold;
+}
+
+.espaco_container img {
+    margin-right: 5px;
+}
+
+.espaco_container {
+    display: flex;
+}
+
+/* Parte onde vou começar a estilizar a parte do meu primeiro section */
+
+#geral {
+    display: flex;
+    justify-content: center;
+  
+    
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    width: 990px;
+    height: 500px;
+    background-color: white;
+    border-bottom: 2px solid #696969;
+}
+
+.foto_produto {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.informacoes_do_produto {
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foto_produto img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+.informacoes_do_produto h3 {
+    color: #696969;
+    margin-top: 60px;
+}
+
+.informacoes_do_produto_valor {
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-text);
+
+}
+
+.informacoes_produto_marcas {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #363636;
+}
+.informacoes_produto_select select {
+    width: 150px;
+    padding:5px;
+    font-weight: bold;
+    border: 1px solid #696969;
+    background-color: #DDD;
+}
+
+.botao_carrinho button {
+    margin-top: 15px;
+    width: 250px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #727272;
+    background-color: #363636;
+}
+.botao_carrinho button:hover {
+    background-color: #464646;
+}
+
+.incones_redes_sociais {
+    margin-top: 20px;
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+.incones_redes_sociais a {  
+    padding: 5px;
+    border: 2px solid black;
+    
+}
+
+.margin_icone{
+    margin-left: 10px;
+}
+
+.envios_devolucoes {
+    margin-top: 15px;
+}
+
+.envios_devolucoes a {
+    color: #363636;
+    font-size: 15px;
+}
+
+
+/*Parte do meu css onde eu vou deixar os estilos da minha segunda section */
+
+#geral2 {
+    display: flex;
+    justify-content: center;
+   
+}
+.container4 {
+    display: flex;
+    width: 990px;
+    height: 200px;
+    background-color: white;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.section_amor {
+    display: flex;
+    flex-direction: column;
+    color: #323232;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+
+
+.vip {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input_vip {
+    display: flex;
+    justify-content: center;
+}
+
+.input_vip input {
+    width: 200px;
+
+}
+
+.input_vip button {
+    background-color: #323232;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    width: 80px;
+    font-size: 16px;
+}
+
+.section_contatos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    color: #323232;
+    font-size: 15px;
+}
+
+.section_contatos1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #323232;
+}
+
+.section_contatos2 {
+    text-align: center;
+    color: #323232;
+}
+
+.section_contatos3 {
+    justify-content: center;
+    color: #323232;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.section_contatos3 img {
+    margin-right: 5px;
+}
+
+.section_contatos4 {
+    text-align: center;
+    color: #323232;
+}
+
+/*Linha de estilos aplicados ao meu footer */
+
+#footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 990px;
+    align-items: center;
+    font-size: 12px;
+    background-color: #323232;
+}
+
+.footer_info {
+    display: flex;
+    padding:10px;
+}
+
+.footer_info a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_info a:hover{
+    text-decoration: underline;
+}
+
+.footer_info_rodape {
+    border-right: 1px solid #FFF;
+    padding-right: 5px;
+    padding-left: 5px;
+}
